@@ -1,0 +1,9 @@
+1>In react h2 or other element are  not html element they are react element with native classes
+2> when does a function is converted it into react component when we use it at main.jsx
+
+
+3> ---- How do we pass data in Component ---> We pass as attribute
+
+4> Props we pass something as attribute 
+
+5> Interpolation while accesing the props value we use {props.title}
