@@ -1,4 +1,15 @@
 import { Header } from "./Header"
+import Product from "./Product"
 export function App(){
-     return <Header title="This is passing" link="link1"></Header>
+     return <>
+         
+         <header>
+           <Header></Header>
+         </header>
+         <main>
+     <Product></Product>
+         </main>
+         <footer></footer>
+
+     </>
 }

@@ -7,3 +7,34 @@
 4> Props we pass something as attribute 
 
 5> Interpolation while accesing the props value we use {props.title}
+
+6> {} use this for writing javascript
+
+
+7> There are two reactHook  UseState Useref
+
+
+React 1>st rule ----> Never make open variabl like this  
+
+var productList = [];
+ setTimeout(()=>{
+  productList = [
+    {name:"Apple", price: "20"},
+    {name:"Mango", price: "30"},
+    {name:"Banana", price: "40"},
+    {name:"PineApple", price: "50"},
+  ]
+
+ },1000);
+
+                                                 kisse change karna ha
+Use Usestate   - it have two argument [product, setProduct];
+                                       kisko change karna ha
+
+
+   var [productList ,setProduct] = useState([]);
+
+                                      this will assign datatype
+
+
+
