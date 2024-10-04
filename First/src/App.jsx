@@ -1,15 +1,16 @@
-import { Header } from "./Header"
-import Product from "./Product"
+import Layout from "../component/layout/Layout"
+import { rotes as Rotes } from "./rotes"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.css"
 export function App(){
+
      return <>
          
-         <header>
-           <Header></Header>
-         </header>
-         <main>
-     <Product></Product>
-         </main>
-         <footer></footer>
+         <Layout>
+          <main>
+            <RouterProvider router={Rotes}></RouterProvider>
+          </main>
+         </Layout>
 
      </>
 }

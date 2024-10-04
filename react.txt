@@ -38,3 +38,67 @@ Use Usestate   - it have two argument [product, setProduct];
 
 
 
+
+------------------------------------------- Why need of virtual dom -----------------------------
+
+
+
+
+---------------------------------------------- useEffect ----------------------------------
+!>
+useEffect(effect, dependency)
+
+useEffect(() => {
+  console.log("component rendered") ;       ->> this will render continusoly;
+})
+
+
+
+2> 
+useEffect(() => {
+  console.log("component rendered") ; do this only at intial render;
+},[])
+
+
+
+
+3>
+useEffect(() => {
+  console.log("component rendered") ;
+},[productlist])      --> data will be rendered when productlist is rendered ( dependency update)
+
+
+
+
+
+
+
+
+
+--------------------------------- SPA ---------------------------------------------------
+singlepage application ---> in spa the header and footer remain same but the main section changes
+
+
+------------------------------------ React Routing --------------------------------------
+
+createBrowserRouter([{path: "/", element: <ProductList></ProductList>}])
+
+
+====================================== How to pass data from child to parent ---------------
+
+by passinf a function a props to child
+
+
+
+
+-------------------------------------------- link -------------------------------------
+
+link to ==> similar to ANCHOR TAG IT DOES NOT REFRESH whole page  it updates the history
+
+
+
+------------------------------------- useRef --------------------------------------------
+
+it is used to create static refrence of any javascript  
+it is used to preserve the value of a javascript element because of rerendring it will reassign value
+
