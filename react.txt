@@ -102,3 +102,8 @@ link to ==> similar to ANCHOR TAG IT DOES NOT REFRESH whole page  it updates the
 it is used to create static refrence of any javascript  
 it is used to preserve the value of a javascript element because of rerendring it will reassign value
 
+
+---------------------------------------- form in react -----------------------------
+
+what are sythentic event --> just wrapper on default html elementt
+
